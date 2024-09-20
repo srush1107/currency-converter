@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter - Convert Your Currency</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        <st>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@400;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            font-family: 'Noto Sans', sans-serif;
+            font-weight: 900;
+            display: flex;
+            font-size: 20px;
+            background-color: rgb(224, 209, 245);
+            padding: 23px;
+        }
+
+
+        nav li a {
+            text-decoration: none;
+            color: rgb(2, 3, 18);
+            transition: all;
+            transition-duration: 500ms;
+        }
+
+        nav li a:hover {
+            text-decoration: none;
+            color: rgb(103, 101, 235);
+        }
+
+        div.logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 23px;
+            font-size: 24px;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        .container {
+            min-height: 100vh;
+            font-family: 'Poppins', sans-serif;
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .container h1,
+        h2 {
+            margin: 23px 0;
+        }
+
+        .container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container form label {
+            font-size: 25px;
+        }
+
+        .container form input[type='number'],
+        select,
+        label {
+            font-size: 25px;
+            width: 23vw;
+            margin-bottom: 23px;
+        }
+
+        .btn {
+            width: 144px;
+            padding: 5px 8px;
+            font-size: 20px;
+            background: #e0d0f5;
+            color: black;
+            border-radius: 13px;
+            cursor: pointer;
+        }
+
+        .output {
+            display: none;
+        }
+
+        .output table {
+            width: 50vw;
+            text-align: center;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+
+        .output table th{
+            padding: 3px;
+        }
+
+        @media (max-width: 600px) {
+            
+
+            nav {
+                flex-direction: column;
+                font-size: 14px;
+            }
+
+            nav ul li {
+                margin: 5px 13px;
+            }
+
+            nav ul {
+                justify-content: center;
+            }
+
+            .container {
+                max-width: 95vw;
+            }
+
+            .container form input[type='number'],
+            select,
+            label {
+                width: 80vw;
+            }
+        }
+
+        footer {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+    </style>
+        </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">MyCurrencyConverter</div>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href = "Converter.html">Converter</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <pre> 
+        Here's a bit more detail on the currencies of some major countries:
+
+            United States: 
+            Currency - United States Dollar (USD). 
+            Symbol: $. 
+            Code: USD. 
+            The USD is the world's primary reserve currency, widely used in international trade and finance.
+            
+            United Kingdom: 
+            Currency - Pound Sterling (GBP). 
+            Symbol: £. 
+            Code: GBP.
+            The GBP is one of the oldest currencies still in use today and is commonly referred to as the "pound."
+            
+            European Union: 
+            Currency - Euro (EUR). 
+            Symbol: €. Code: EUR. 
+            The EUR is used by 19 of the 27 European Union member states, making it one of the most widely used currencies in the world.
+            
+            Japan: 
+            Currency - Japanese Yen (JPY). 
+            Symbol: ¥. 
+            Code: JPY. 
+            The JPY is known for its stability and is the third most traded currency in the foreign exchange market.
+            
+            China: 
+            Currency - Chinese Yuan Renminbi (CNY). 
+            Symbol: ¥. 
+            Code: CNY. 
+            The CNY is controlled by the People's Bank of China and is becoming increasingly important in global trade and finance.
+            
+            India: 
+            Currency - Indian Rupee (INR). 
+            Symbol: ₹. 
+            Code: INR. 
+            The INR is issued and regulated by the Reserve Bank of India and is widely used in South Asia.
+            
+            Canada: 
+            Currency - Canadian Dollar (CAD). 
+            Symbol: $. 
+            Code: CAD. 
+            The CAD is known for its correlation with the price of oil due to Canada's significant oil reserves and exports.
+            
+            Australia: 
+            Currency - Australian Dollar (AUD). 
+            Symbol: $. 
+            Code: AUD. 
+            The AUD is often considered a commodity currency due to Australia's abundance of natural resources.
+            
+            Switzerland: 
+            Currency - Swiss Franc (CHF). 
+            Symbol: CHF. 
+            Code: CHF. 
+            The CHF is known for its stability and is often used as a safe-haven currency during times of global economic uncertainty.
+            
+            Russia: 
+            Currency - Russian Ruble (RUB). 
+            Symbol: ₽. 
+            Code: RUB. 
+            The RUB is issued by the Central Bank of Russia and is influenced by fluctuations in oil prices and geopolitical events.
+        </pre>
+        }
+    <script src="main.js"></script>
+</body>
+</html>
