@@ -1,1 +1,1 @@
-# currency-converter
+The currency converter project aims to develop a tool that allows users to convert between different currencies. It typically involves gathering real-time exchange rates from a reliable source, providing a user-friendly interface, and implementing the conversion functionality.
